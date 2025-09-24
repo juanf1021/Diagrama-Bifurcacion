@@ -1,5 +1,7 @@
 # Diagrama de Bifurcación en Internet con Datos Reales
 
+## Andres Castro, Juan Hurtado, Franco Comas
+
 ## Resumen
 
 Este proyecto implementa un modelo de **dinámica no lineal** para analizar el comportamiento caótico en métricas de Internet, utilizando un **diagrama de bifurcación**.  
