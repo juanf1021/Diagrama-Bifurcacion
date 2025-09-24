@@ -7,6 +7,7 @@
 Este proyecto implementa un modelo de **dinámica no lineal** para analizar el comportamiento caótico en métricas de Internet, utilizando un **diagrama de bifurcación**.  
 Se usaron datos abiertos de **Speedtest by Ookla** (CC BY-NC-SA 4.0), con más de **4.7 millones de filas** que incluyen información de ancho de banda, latencia y número de pruebas por tile geográfico.
 
+Colab: https://colab.research.google.com/drive/1FybYKjhhU887_wLy3mo4lHu-Nfk5fpIi?usp=sharing
 ---
 
 ## Dataset
@@ -15,10 +16,9 @@ Se usaron datos abiertos de **Speedtest by Ookla** (CC BY-NC-SA 4.0), con más d
 * **Tamaño usado**: 4,744,330 filas
 * **Campos principales**:
   * `avg_d_kbps`: velocidad de descarga (kbps)
-  * `avg_u_kbps`: velocidad de subida (kbps)
-  * `avg_lat_ms`: latencia promedio (ms)
-  * `tests`, `devices`: número de pruebas y dispositivos
-  * `quadkey`, `tile_x`, `tile_y`: ubicación geográfica
+  * `tests`: número de pruebas realizadas
+  * `download_mbps`: velocidad de descarga convertida a Mbps
+  * `download_mbps_clip`: velocidad de descarga en Mbps con recorte de valores extremos (para normalizar)
 * **Cobertura temporal**: desde Q1 2019 hasta el trimestre más reciente
 * **Licencia**: CC BY-NC-SA 4.0
 
